@@ -1,9 +1,8 @@
-CSS
-h1{
-	color: GreenYellow;
+h3 {
+	color:blue;
 }
 
-main section article h1, footer p{
+main section article h3, footer p{
 	color: blue; /* Couleur des écritures du footer et titre H1*/
 }
 
@@ -24,6 +23,8 @@ main section article h1, footer p{
 
 main{
 	padding: 20px;
+	border: 4px black dotted;/*Ajout des pointillés au bords du carré*/
+	border-radius: 10px 30px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;
@@ -40,16 +41,12 @@ main{
 }
 
 	img {
-	width: 80px; /* Redimensionner la photo*/
-	height: 80px;/* Redimensionner la photo*/
+	width: 100px; /* Redimensionner la photo*/
+	height: 100px;/* Redimensionner la photo*/
 }
 
 body {
 	background-color: #b0c4de;/*Couleur de fond de page principale*/
-}
-
-body {
-    background-image: url("../images/feuillecacao.jpg"); /*Ajouter une image écran de fond*/
 }
 
 footer{
@@ -60,4 +57,6 @@ footer{
 	margin-right: auto;
 	margin-top: 0px;
 	width: 30%;
+	border: 4px black dotted;/*Arrondir les bords du carré*/
+	border-radius: 10px 30px;/*Arrondir les bords du carré*/
 }
